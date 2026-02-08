@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Projects | Sreedatta</title>
+  <title>Projects | Sreedatta Pusala</title>
   <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
@@ -15,27 +15,84 @@
 <div class="container">
   <h2>Projects</h2>
 
+  <!-- Project 1 -->
   <div class="card">
     <h3>AWS → Snowflake Analytics Pipeline</h3>
+
     <p>
-      End-to-end batch ETL pipeline using Amazon S3, PySpark,
-      Snowflake, and Apache Airflow.
+      <strong>Problem:</strong><br>
+      Raw operational data needs to be ingested, transformed, and made
+      analytics-ready for reporting and analysis.
     </p>
-    <a class="button" href="https://github.com/YOUR_USERNAME/aws-snowflake-data-pipeline">
-      View GitHub Repo
+
+    <p>
+      <strong>Solution:</strong><br>
+      Designed a batch ETL pipeline that ingests data into Amazon S3,
+      processes it using PySpark, and loads curated datasets into Snowflake
+      for analytics consumption.
+    </p>
+
+    <p>
+      <strong>Tech Stack:</strong><br>
+      AWS S3, PySpark, Snowflake, Apache Airflow, Python, SQL
+    </p>
+
+    <p>
+      <strong>Key Engineering Focus:</strong>
+      <ul>
+        <li>Clean S3 data lake layout (raw / processed layers)</li>
+        <li>PySpark transformations with partitioning and joins</li>
+        <li>Snowflake data loading using COPY INTO</li>
+        <li>Airflow DAGs for orchestration and failure handling</li>
+      </ul>
+    </p>
+
+    <a class="button"
+       href="https://github.com/YOUR_USERNAME/aws-snowflake-data-pipeline"
+       target="_blank">
+      View GitHub Repository
     </a>
   </div>
 
+  <!-- Project 2 -->
   <div class="card">
-    <h3>AI Document Intelligence (Personal Project)</h3>
+    <h3>AI-Powered Document Intelligence (Personal Project)</h3>
+
     <p>
-      Document ingestion and semantic search system using FastAPI,
-      FAISS, LangChain, and RAG.
+      <strong>Problem:</strong><br>
+      Searching and extracting information from unstructured documents
+      is slow and inefficient using traditional keyword search.
     </p>
-    <a class="button" href="https://github.com/YOUR_USERNAME/ai-document-intelligence">
-      View GitHub Repo
+
+    <p>
+      <strong>Solution:</strong><br>
+      Built a document ingestion and semantic search system that enables
+      context-aware question answering using modern embedding and RAG techniques.
+    </p>
+
+    <p>
+      <strong>Tech Stack:</strong><br>
+      Python, FastAPI, Hugging Face Transformers, FAISS,
+      LangChain, OpenAI API, Apache Airflow
+    </p>
+
+    <p>
+      <strong>Key Engineering Focus:</strong>
+      <ul>
+        <li>Text embedding generation and vector storage</li>
+        <li>Semantic retrieval using FAISS</li>
+        <li>Retrieval-Augmented Generation (RAG)</li>
+        <li>Workflow orchestration for ingestion and indexing</li>
+      </ul>
+    </p>
+
+    <a class="button"
+       href="https://github.com/YOUR_USERNAME/ai-document-intelligence"
+       target="_blank">
+      View GitHub Repository
     </a>
   </div>
+
 </div>
 
 </body>
