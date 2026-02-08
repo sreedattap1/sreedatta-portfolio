@@ -2,32 +2,41 @@
 <html>
 <head>
   <title>Projects | Sreedatta</title>
+  <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="projects.html">Projects</a>
+</nav>
+
+<div class="container">
   <h2>Projects</h2>
 
-  <h3>AWS to Snowflake Analytics Pipeline</h3>
-  <p>
-    Batch ETL pipeline using Amazon S3, PySpark, Snowflake,
-    and Apache Airflow.
-  </p>
-
-  <p>
-    <a href="https://github.com/YOUR_USERNAME/aws-snowflake-data-pipeline">
+  <div class="card">
+    <h3>AWS → Snowflake Analytics Pipeline</h3>
+    <p>
+      End-to-end batch ETL pipeline using Amazon S3, PySpark,
+      Snowflake, and Apache Airflow.
+    </p>
+    <a class="button" href="https://github.com/YOUR_USERNAME/aws-snowflake-data-pipeline">
       View GitHub Repo
     </a>
-  </p>
+  </div>
 
-  <h3>AI Document Intelligence (Personal Project)</h3>
-  <p>
-    Document ingestion and semantic search using FastAPI,
-    FAISS, and RAG.
-  </p>
-
-  <p>
-    <a href="https://github.com/YOUR_USERNAME/ai-document-intelligence">
+  <div class="card">
+    <h3>AI Document Intelligence (Personal Project)</h3>
+    <p>
+      Document ingestion and semantic search system using FastAPI,
+      FAISS, LangChain, and RAG.
+    </p>
+    <a class="button" href="https://github.com/YOUR_USERNAME/ai-document-intelligence">
       View GitHub Repo
     </a>
-  </p>
+  </div>
+</div>
+
 </body>
 </html>
